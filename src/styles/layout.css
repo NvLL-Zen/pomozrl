@@ -43,7 +43,7 @@ body {
 }
 
 #Clock {
-    width: 450px;
+    width: clamp(250px, 75vw, 450px);
     height: 275px;
     border: 1px solid white;
     
@@ -70,7 +70,7 @@ body {
     letter-spacing: 3.5px;
     width: 50%;
     align-self: center;
-    padding: 5px 0 5px 0;
+    padding: 5px 10px 5px 10px;
 }
 
 #TimerButton:hover {
