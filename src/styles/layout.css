@@ -47,11 +47,11 @@ body {
 
 #Clock {
     width: clamp(250px, 75vw, 450px);
-    height: 275px;
+    height: 250px;
     border: 1px solid white;
     
     padding: 15px;
-    transform: translateY(25vh);
+    transform: translateY(20vh);
 
     display: flex;
     flex-direction: column;
@@ -114,7 +114,7 @@ button {
     width: 100%;
     height: 10px;
     position: absolute;
-    transform: translateY(85vh) translateX(-100vw);
+    transform: translateY(90vh) translateX(-100vw);
     border-radius: 0;
 }
 

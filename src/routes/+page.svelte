@@ -106,10 +106,10 @@
     const updateBar = (opt) => {
 		console.log('updating bar')
         if (opt == 'reset') {
-            progressBar.style.transform = `translateY(85vh) translateX(-100vw)`
+            progressBar.style.transform = `translateY(90vh) translateX(-100vw)`
             return;
         } else {
-            progressBar.style.transform = `translateY(85vh) translateX(-${(timer/modeTimer)*100}vw)`
+            progressBar.style.transform = `translateY(90vh) translateX(-${(timer/modeTimer)*100}vw)`
             console.log(timer/modeTimer)
         }
     }
